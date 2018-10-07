@@ -1,3 +1,5 @@
+extern crate lookup_host;
+
 fn main() {
-    println!("Hello, world!");
+    lookup_host::lookup_host();
 }
